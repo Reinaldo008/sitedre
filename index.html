@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styles.css" />
+        
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <title>O Aniversario</title>
+
+        <link rel="shortcut icon" href="./imagens/logo_guia.png" type="image/x-icon">
+    </head>
+    <body>
+        <div class="options">
+            <div class="option active" style="--optionBackground: url(./dd.jpg); "> 
+                <div class="label">
+                    <div class="icon">
+                        <i class="fa-brands fa-fantasy-flight-games"></i>
+                    </div>
+                    <div class="info">
+                        <a href="./o inicio/inicio.html">O inicio</a>
+                        <div class="sub">como tudo começou!!</div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="option" style="--optionBackground: url(./dress.png); background-size: cover;">
+                <div class="label">
+                    <div class="icon">
+                        <i class="fa-brands fa-fantasy-flight-games"></i>
+                    </div>
+                    <div class="info">
+                        <a href="./a aniversariante/aniver.html">A Aniversariante</a>
+                        <div class="sub">Preciso comentar?</div>
+                    </div>
+                </div>
+            </div>
+            <div class="option" style="--optionBackground: url(cat.png);">
+                <div class="label">
+                    <div class="icon">
+                        <i class="fa-brands fa-fantasy-flight-games"></i>
+                    </div>
+                    <div class="info">
+                        <a href="./o motivo/motivo.html">A motivação do site</a>
+                        <div class="sub">porque sera?????:D</div>
+                    </div>
+                </div>
+            </div>
+            <div class="option" style="--optionBackground: url(./space-groove-lulu-lol-splash-art-uhdpaper.com-8K-7.3331.jpg);">
+                <div class="label">
+                    <div class="icon">
+                        <i class="fa-brands fa-fantasy-flight-games"></i>
+                    </div>
+                    <div class="info">
+                        <a href="../">Main</a>
+                        <div class="sub">A Main, o demonio em forma de yordle</div>
+                    </div>
+                </div>
+            </div>
+            <div class="option" style="--optionBackground: url(./duo.png);">
+                <div class="label">
+                    <div class="icon">
+                        <i class="fa-brands fa-fantasy-flight-games"></i>
+                    </div>
+                    <div class="info">
+                        <a href="../regioes/regioes.html">O Duo</a>
+                        <div class="sub">Traquinagens Do Lol</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $(".option").click(function () {
+                $(".option").removeClass("active");
+                $(this).addClass("active");
+            });
+        </script>
+    
+       <style>
+               * {
+                margin: 0;
+                padding: 0;
+                box-sizing: 0;
+               }
+               body{
+                   background-image: url(./space-groove-lulu-lol-splash-art-uhdpaper.com-8K-7.3331.jpg);
+                   background-size: cover;
+                   
+
+               }
+        
+       </style>
+
+
+
+
+
+</body>
+</html>
+
